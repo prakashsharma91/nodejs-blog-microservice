@@ -7,3 +7,6 @@ eval $(minikube docker-env)
 
 # Enabled ingress
 minikube addons enable ingress
+
+# skaffold
+skaffold dev
